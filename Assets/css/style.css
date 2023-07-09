@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  header {
+    /*padding: 40px;*/
+      background: #13293d;
+    color: #fff;
+  }
+
+  header h1 {
+    text-align: left;
+    color:darkblue;
+    border: solid;
+    border-color: yellow;
+    /*background-color: aquamarine;*/
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    /* justify-content: space-evenly; */
+    background-color: #d8a47f;
+  }
+  
+  main {
+    display: inline-block;
+    /* flex-wrap: wrap; */
+    /*justify-content: right*/
+    margin-left: 40px;
+    width: 80%;
+  }*/
+
+  /* aside {
+    /* margin-left: 20px;
+    padding: 20px;
+    width: 20%;
+    height: 40%;
+    background-color: blue;
+    justify-content: left;
+  } */
+
+  
+  section {
+    /* flex: 0 0 400px; */
+    flex flexend
+    min-height: 500px;
+    background-color: #fff;
+    padding: 20px;
+    border: solid #13293d;
+    justify-content: right;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  footer {
+    flex-shrink: 0;
+    padding: 20px;
+    text-align: center;
+    background: #13293d;
+    color: #fff;
+    margin-top: auto;
+  }
+  
+  /* Added some padding and styling for the photos */
+  .photo {
+    padding: 20px 10px;
+    border: 2px solid #bfbfbf;
+    background-color: #fff;
+  }
+  
+  /* We can use rotate to rotate the photo to the left or right */
+  .rotate {
+    transform: rotate(7deg);
+  }
+  
+  /* We can use scale to stretch the photo vertically or horizontally */
+  .scale {
+    transform: scale(1.5, 1);
+  }
+  
+  /* We can use skew to skew the photo to the left or right */
+  .skew {
+    transform: skew(15deg);
+  }
+  
+  @media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+    header {
+      background: #772014;
+    }
+    nav,
+    footer {
+      background-color: #bb8588;
+    }
+  }
+  
