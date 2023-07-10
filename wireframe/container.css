@@ -6,11 +6,12 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    background-color: rgba(0, 0, 139, 0.205);
+    background-color: #352e41;
+    padding-left: 75px;
 }
 
 header h1 {
-    color: darkblue
+    color: #4d4d72
 }
 
 /* provide highlighting for the header name*/
@@ -30,8 +31,11 @@ nav ul {
     list-style-type: none;
     justify-content: space-between;
     min-width: 300px;
-    color: lightblue;
-    font-weight: bold;
+}
+/* Q:  It seems unless I specify text color at this level it gets overwritten by user agent.
+what is the rule here?*/
+nav ul li a {
+    color: white;
 }
 
 /* add the topic hyperlinked sections and light grey background*/
@@ -40,21 +44,25 @@ section {
     background-color: lightgray;
     justify-content: space-between;
     height: 500px;
+    color: #4d4d72;
 }
 
 /* adding a border so I can see the h1 container and aligned text to the right and made width 20%*/
 section h1 {
     text-align: right;
     font-size: 200%;
-    border-right: 15px solid blue;
+    border-right: 5px solid #4d4d72;
+    padding-right: 10px;
     width: 20%
 }
 
 /* adding a border so I can see the p container and made width 80%*/
 section p {
+    padding: 10px;
     width: 80%
 }
 
 footer {
     height: 500px;
+    color: #4d4d72;
 }
