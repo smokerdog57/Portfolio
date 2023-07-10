@@ -1,0 +1,60 @@
+/* set the font family for the site */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 139, 0.205);
+}
+
+header h1 {
+    color: darkblue
+}
+
+/* provide highlighting for the header name*/
+.headername {
+    background-color: lightblue;
+}
+
+/* Remove bullets and display nav list items horizontally - just adding space between and display flex
+did not work and apply padding to nav element. Q: how do I bottom align the h1 and the nav elements?
+in the header*/
+nav {
+    padding-right: 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    min-width: 300px;
+    color: lightblue;
+    font-weight: bold;
+}
+
+/* add the topic hyperlinked sections and light grey background*/
+section {
+    display: flex;
+    background-color: lightgray;
+    justify-content: space-between;
+    height: 500px;
+}
+
+/* adding a border so I can see the h1 container and aligned text to the right and made width 20%*/
+section h1 {
+    text-align: right;
+    font-size: 200%;
+    border-right: 15px solid blue;
+    width: 20%
+}
+
+/* adding a border so I can see the p container and made width 80%*/
+section p {
+    width: 80%
+}
+
+footer {
+    height: 500px;
+}
