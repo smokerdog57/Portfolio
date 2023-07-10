@@ -1,0 +1,27 @@
+header {
+    display: flex;
+    border: 1px;
+    border-style: solid;
+    justify-content: space-between;
+}
+
+/* get rid of bullets and display nav list items horizontally - just adding space between and display flex
+did not work*/
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    min-width: 300px;
+}
+/* add the topic hyperlinked sections*/
+section {
+    display: flex;
+    border: 1px;
+    border-style: solid;
+    justify-content: space-between;
+    height: 500px;
+}
+
+footer {
+    height: 500px;
+}
