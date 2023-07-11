@@ -1,111 +1,95 @@
-* {
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial;
-    margin: 0;
+/* set the font family for the site */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*main {
     display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  }
-  
-  header {
-    /*padding: 40px;*/
-      background: #13293d;
-    color: #fff;
-  }
+    flex-wrap: wrap;
+}*/
 
-  header h1 {
-    text-align: left;
-    color:darkblue;
-    border: solid;
-    border-color: yellow;
-    /*background-color: aquamarine;*/
-  }
-
-  nav {
+.header_top {
     display: flex;
-    flex-direction: row;
-    justify-content: right;
-    /* justify-content: space-evenly; */
-    background-color: #d8a47f;
-  }
-  
-  main {
-    display: inline-block;
-    /* flex-wrap: wrap; */
-    /*justify-content: right*/
-    margin-left: 40px;
-    width: 80%;
-  }*/
+    justify-content: space-between;
+    background-color: #352e41;
+    padding: 15px 50px 15px 75px;
+}
 
-  /* aside {
-    /* margin-left: 20px;
-    padding: 20px;
+/* Make h1 font-size larger and set font-color */
+.header_top h1 {
+    color: #4d4d72;
+    font-size: 200%;
+}
+
+/* provide highlighting for the header name*/
+.headername {
+    background-color: lightblue;
+}
+
+/* Remove bullets and display nav list items horizontally - just adding space between and display flex
+did not work and apply padding to nav element. Q: how do I bottom align the h1 and the nav elements?
+in the header*/
+
+.header_top nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    min-width: 300px;
+}
+/* Q:  It seems unless I specify text color at this level it gets overwritten by user agent.
+what is the rule here?*/
+.header_top nav ul li a {
+    color: white;
+}
+
+/* add the topic hyperlinked sections and light grey background*/
+.section_topic {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightgray;
+    justify-content: space-between;
+    color: #4d4d72;
+    padding: 15px;
+}
+
+/* adding a right border and made width 20%*/*
+.section_topic h1 {
+    text-align: right;
+    font-size: 200%;
+    border-right: 5px solid #4d4d72;
+    padding-right: 10px;
     width: 20%;
-    height: 40%;
-    background-color: blue;
-    justify-content: left;
-  } */
+}
 
-  
-  section {
-    /* flex: 0 0 400px; */
-    flex flexend
-    min-height: 500px;
-    background-color: #fff;
-    padding: 20px;
-    border: solid #13293d;
-    justify-content: right;
-  }
-  
-  img {
-    width: 100%;
-  }
-  
-  footer {
-    flex-shrink: 0;
-    padding: 20px;
+.section_topic p {
+    padding: 10px;
+    width: 80%;
+}
+
+.card_container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.card {
+    flex: 1 1 0;
+    padding: 10px;
     text-align: center;
+}
+
+.card header {
+    padding: 20px;
     background: #13293d;
     color: #fff;
-    margin-top: auto;
-  }
-  
-  /* Added some padding and styling for the photos */
-  .photo {
-    padding: 20px 10px;
-    border: 2px solid #bfbfbf;
-    background-color: #fff;
-  }
-  
-  /* We can use rotate to rotate the photo to the left or right */
-  .rotate {
-    transform: rotate(7deg);
-  }
-  
-  /* We can use scale to stretch the photo vertically or horizontally */
-  .scale {
-    transform: scale(1.5, 1);
-  }
-  
-  /* We can use skew to skew the photo to the left or right */
-  .skew {
-    transform: skew(15deg);
-  }
-  
-  @media screen and (max-width: 768px) {
-    main,
-    nav {
-      flex-direction: column;
-    }
-    header {
-      background: #772014;
-    }
-    nav,
-    footer {
-      background-color: #bb8588;
-    }
-  }
-  
+}
+
+.card img {
+    max-width: 100%;
+    /*min-width: 100px;*/
+}
+
+footer {
+    height: 500px;
+    color: #4d4d72;
+}

@@ -4,18 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tom Fusco's Web Journey</title>
-    <link rel="stylesheet" href="./assets/css/reset.css" />
-    <link rel="stylesheet" href="./assets/css/test.css" />
+    <title>Container & Box Model Experiment</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/container.css">
 </head>
 
 <body>
-    <header>
-        <h1>Tom Fusco</h1>
-        <nav>               
+    <!-- This is the header with nav links to the topics (sections) 
+    Q:  how do I make the header highlighting extend left to border of header 
+        like in the example picture ?   -->
+    <header class="header_top">
+        <h1><span class="headername">Tom Fusco</span></h1>
+        <nav>
             <ul>
                 <li>
-                    <a href="#aboutme">About Me</a>
+                    <a href=#aboutme>About Me</a>
                 </li>
                 <li>
                     <a href="#work">Work</a>
@@ -29,15 +32,41 @@
             </ul>
         </nav>
     </header>
+
     <main>
-        <section class="element_title" id="aboutme">
-            <a>About Me</a>
+        <section id="aboutme" class="section_topic">
+            <h1>About <br>Me</h1>
+            <p>This is the about me paragraph bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</p>
         </section>
-        <section class="element_content">
-            <a>Write a paragraph here about me</a>
+        <section id="work" class="section_topic">
+            <h1>Work</h1>
+            <section class="card_container">
+                <section class="card">
+                    <a href="https://smokerdog57.github.io/refactoring/">
+                    <header>Horiseon</header>
+                    <img src="./Assets/images/digital-marketing-meeting.jpg" alt="Tablet"></a>
+                </section>
+                <section class="card">
+                    <header>Tablet</header>
+                    <img src="./Assets/images/tablet.jpg" alt="Tablet">
+                </section>
+                <section class="card">
+                    <header>Toilet Paper</header>
+                    <img src="./Assets/images/toilet-paper.jpg" alt="Toilet Paper">
+                </section>
+                <section class="card">
+                    <header>Wooden Spoons</header>
+                    <img src="./Assets/images/wooden-spoons.jpg" alt="Wooden Spoons">
+                </section>
+            </section>
+        </section>
+        <section id="resume" class="section_topic">
+            <h1>Resume</h1>
+        </section>
+        <section id="contactme" class="section_topic">
+            <h1>Contact <br>Me</h1>
         </section>
     </main>
-
 </body>
 
 </html>
