@@ -1,0 +1,68 @@
+/* set the font family for the site */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header_top {
+    display: flex;
+    padding-bottom: 15px;
+    border-bottom: 5px solid;
+}
+
+/* Make h1 font-size larger and set font-color */
+.header_top h1 {
+    color: #4d4d72;
+    font-size: 200%;
+    padding-left: 15px;
+}
+
+/* provide highlighting for the header name*/
+.headername {
+    background-color: lightblue;
+}
+
+/* Remove bullets and display nav list items horizontally - just adding space between and display flex
+did not work and apply padding to nav element. Q: how do I bottom align the h1 and the nav elements?
+in the header*/
+
+.header_top nav ul {
+    list-style-type: none;
+    padding: 15px 15px 15px 500px;
+}
+/* Q:  It seems unless I specify text color at this level it gets overwritten by user agent.
+what is the rule here?*/
+.header_top nav ul li {
+    /* color: white;*/
+    padding-right: 10px;
+    font-size: small;
+}
+
+img {
+    width: 10%
+}
+/* add the topic hyperlinked sections and light grey background*/
+
+ul {
+    padding-top: 10px;
+}
+
+h2 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+p {
+    padding-top: 10px;
+}
+
+footer {
+    height: 500px;
+    color: #4d4d72;
+}
+ 

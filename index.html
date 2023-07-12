@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Container & Box Model Experiment</title>
     <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/container.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
@@ -15,6 +15,7 @@
         like in the example picture ?   -->
     <header class="header_top">
         <h1><span class="headername">Tom Fusco</span></h1>
+        <img class="tom" src="./Assets/images/tom.jpg" alt="Tom's Picture">
         <nav>
             <ul>
                 <li>
@@ -27,7 +28,7 @@
                     <a href="#contactme">Contact Me</a>
                 </li>
                 <li>
-                    <a href="#resume">Resume</a>
+                    <a href="./resume.html">Resume</a>
                 </li>
             </ul>
         </nav>
@@ -38,13 +39,18 @@
             <h1>About <br>Me</h1>
             <p>This is the about me paragraph bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</p>
         </section>
+        <section id="contactme" class="section_topic">
+            <h1>Contact Me</h1>
+            <p>This is the about me paragraph bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</p>
+        </section>
         <section id="work" class="section_topic">
             <h1>Work</h1>
             <section class="card_container">
                 <section class="card">
-                    <a href="https://smokerdog57.github.io/refactoring/">
-                    <header>Horiseon</header>
-                    <img src="./Assets/images/digital-marketing-meeting.jpg" alt="Tablet"></a>
+                    <a href="https://smokerdog57.github.io/refactoring/" target="__blank">
+                        <header>Horiseon</header>
+                        <img src="./Assets/images/digital-marketing-meeting.jpg" alt="Tablet">
+                    </a>
                 </section>
                 <section class="card">
                     <header>Tablet</header>
@@ -59,13 +65,6 @@
                     <img src="./Assets/images/wooden-spoons.jpg" alt="Wooden Spoons">
                 </section>
             </section>
-        </section>
-        <section id="resume" class="section_topic">
-            <h1>Resume</h1>
-        </section>
-        <section id="contactme" class="section_topic">
-            <h1>Contact <br>Me</h1>
-        </section>
     </main>
 </body>
 

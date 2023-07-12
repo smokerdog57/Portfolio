@@ -36,6 +36,7 @@ in the header*/
     justify-content: space-between;
     min-width: 300px;
 }
+
 /* Q:  It seems unless I specify text color at this level it gets overwritten by user agent.
 what is the rule here?*/
 .header_top nav ul li a {
@@ -52,8 +53,8 @@ what is the rule here?*/
     padding: 15px;
 }
 
-/* adding a right border and made width 20%*/*
-.section_topic h1 {
+/* adding a right border and made width 20%*/
+* .section_topic h1 {
     text-align: right;
     font-size: 200%;
     border-right: 5px solid #4d4d72;
@@ -89,7 +90,40 @@ what is the rule here?*/
     /*min-width: 100px;*/
 }
 
+.tom {
+    width: 10%;
+}
+
 footer {
     height: 500px;
     color: #4d4d72;
+}
+
+/* Cards are split into two columns at 992px or smaller */
+@media screen and (max-width: 992px) {
+    .card {
+        width: 50%;
+    }
+
+    /* Change the header color */
+    header {
+        background: #772014;
+    }
+}
+
+/* Cards are stacked on top of each other at 768px or smaller */
+@media screen and (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
+
+    .section_topic h1 {
+        text-align: right;
+        font-size: 50%;
+    }
+    
+    /* Change the header color */
+    header {
+        background: #8ac4ff;
+    }
 }

@@ -1,19 +1,39 @@
-# Tom-Fusco-s-Web-Projects-Portfolio
-A sampling of Tom's Web Projects
+# Portfolio
 
-<img src="./assets/images/soap.jpg" width=50%>
-# Horiseon Code Refactor
+#### Coder: Tom Fusco 13-Jul-2023
+#### Tom's Portfolio of work
 
-#### Coder: Tom Fusco 3-Jul-2023
-#### Informational web site to introduce Horiseon services
+<img src="./assets/images/tom.jpg" width=10%>
 
-## User Story (Coder objective)
+## User Story (developer objective)
 
-```
-Fix HTML and CSS code to conform to accessibility standards, site is optimized for search engines and refactor code to remove redundancy and improve sustainability.
-```
+Build a portfolio page which showcases my skills and talents to employers looking to fill a part-time or full-time position. This portfolio will highlight my best work and the thought processes behind it. My goal is to leverage my this portfolio with deployed web applications to secure interviews and ultimately a position with the company of my choice.
 
-## Acceptance Criteria
+## Application Requirements
+
+0. Include following technologies:
+	a. flexbox
+	b. media queries
+	c. CSS variables.	
+1. Portfolio application includes developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+2. Upon clicking nav links in the navigation, UI scrolls to the corresponding section.
+3. Upon clicking on the link to the work section, UI scrolls to a section with titled images of the developer's applications
+4. Upon hovering over developer's first application, that application's image should be larger in size than the others
+5. Upon clicking on the images of the applications, I am taken to that deployed application
+6. Upon resizing the page or view the site on various screens and devices, I am presented with a responsive layout that adapts to my viewport
+7. Application deployed at live URL.
+8. Application loads with no errors.
+9. Application GitHub URL submitted.
+10. GitHub repository contains application code.
+11. Application resembles the mock-up functionality provided in the Challenge instructions.
+12. Repository has a unique name.
+13. Repository follows best practices for file structure and naming conventions.
+14. Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+15. Repository contains multiple descriptive commit messages.
+16. Repository contains quality readme with description, screenshot, link to deployed application.
+17. submit BOTH of the following for review: 
+	a. The URL of the deployed application.
+	b. URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
 
 ### Technical
 
@@ -44,17 +64,11 @@ Fix HTML and CSS code to conform to accessibility standards, site is optimized f
  * HTML
  * CSS
 
-## Change Summary
-
- 1. Refactored html code and css to improve readability, and sustainability.
- 2. Refactored html and css to add semantic elements and inproved compliance with accessibility standards.
- 3. Added missing link in nav section.
- 4. Refactored classes to consolidate and remove unnecessary or redundant classes.
-
 ## Resources
-
-  1. https://www.w3schools.com/html/html5_semantic_elements.asp
-  2. https://www.w3schools.com/accessibility/index.php
+<ol>
+  https://www.w3schools.com/html/html5_semantic_elements.asp
+  https://www.w3schools.com/accessibility/index.php
+</ol>
 
 ## License
 
