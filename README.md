@@ -5,6 +5,9 @@
 
 <img src="./assets/images/tom.jpg" width=10%>
 
+#### Link to Deployed Application:  https://smokerdog57.github.io/portfolio/
+#### Link to GitHub repository:     https://github.com/smokerdog57/Portfolio/
+
 ## User Story (developer objective)
 
 Build a portfolio page which showcases my skills and talents to employers looking to fill a part-time or full-time position. This portfolio will highlight my best work and the thought processes behind it. My goal is to leverage my this portfolio with deployed web applications to secure interviews and ultimately a position with the company of my choice.
@@ -35,24 +38,15 @@ Build a portfolio page which showcases my skills and talents to employers lookin
 	a. The URL of the deployed application.
 	b. URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
 
-### Technical
+### Build, Installation and Deployment
 
-* Satisfies all of the preceding acceptance criteria plus the following code improvements:
-
-  * Application's links all function correctly.
-  * Application's CSS selectors & properties are consolidated & organized to follow semantic structure.
-  * Application's CSS file is properly commented.
-
-### Deployment
-
- * Application deployed at live URL.
- * Application loads with no errors.
- * Application GitHub URL submitted.
- * GitHub repository contains application code.
+ * Application built using MS Visual Studio.
+ * Application was commited and pushed to GitHub repository "Portfolio" main branch.
+ * Used GitHub "pages" to deploy application.
 
 ### Quality
 
-* Application resembles mock-up
+* Application resembles mock-up.
 * Repository has a unique name.
 * Repository follows best practices for file structure and naming conventions.
 * Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
@@ -64,11 +58,10 @@ Build a portfolio page which showcases my skills and talents to employers lookin
  * HTML
  * CSS
 
-## Resources
-<ol>
-  https://www.w3schools.com/html/html5_semantic_elements.asp
-  https://www.w3schools.com/accessibility/index.php
-</ol>
+## Credits
+
+ * Tutoring session with Sandy
+ * Advice from Nicole Torres Pabon (student)
 
 ## License
 

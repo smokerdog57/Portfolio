@@ -110,7 +110,7 @@ footer {
   }
   
   .card {
-      width: 100%;      
+      max-width: 100%;
   }
 
   .section_topic h1 {
@@ -124,5 +124,6 @@ footer {
   }
 }
 
-
-
+.card:hover {
+    transform: scale(1.1);
+}
