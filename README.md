@@ -3,7 +3,7 @@
 #### Coder: Tom Fusco 13-Jul-2023
 #### Tom's Portfolio of work
 
-<img src="./assets/images/tom.jpg" width=10%>
+<img src="./Assets/images/tom.jpg" width=10%>
 
 #### Link to Deployed Application:  https://smokerdog57.github.io/portfolio/
 #### Link to GitHub repository:     https://github.com/smokerdog57/Portfolio/
