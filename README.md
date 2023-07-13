@@ -5,7 +5,7 @@
 
 <img src="./Assets/images/tom.jpg" width=10%>
 
-#### Link to Deployed Application:  https://smokerdog57.github.io/portfolio/
+#### Link to Deployed Application:  https://smokerdog57.github.io/Portfolio/
 #### Link to GitHub repository:     https://github.com/smokerdog57/Portfolio/
 
 ## User Story
