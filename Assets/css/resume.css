@@ -4,11 +4,7 @@ body {
     margin: 50px;
 }
 
-main {
-    display: flex;
-    flex-wrap: wrap;
-}
-
+/* set the header properties*/
 .header_top {
     display: flex;
     padding-bottom: 15px;
@@ -27,40 +23,42 @@ main {
     background-color: lightblue;
 }
 
-/* Remove bullets and display nav list items horizontally - just adding space between and display flex
-did not work and apply padding to nav element. Q: how do I bottom align the h1 and the nav elements?
-in the header*/
-
+/* set the header nav ul properties*/
 .header_top nav ul {
     list-style-type: none;
     padding: 15px 15px 15px 500px;
 }
-/* Q:  It seems unless I specify text color at this level it gets overwritten by user agent.
-what is the rule here?*/
+/* set the list item properties */
 .header_top nav ul li {
-    /* color: white;*/
     padding-right: 10px;
     font-size: small;
 }
 
-img {
+/* resize image to fit in header*/
+header img {
     width: 10%;
 }
-/* add the topic hyperlinked sections and light grey background*/
 
-ul {
+/* set the section ul properties*/
+section ul {
     padding-top: 10px;
+    padding-left: 20px;
+    list-style-type: disc;
 }
 
-h2 {
+/* set the section h2 properties*/
+section h2 {
     padding-top: 10px;
     padding-bottom: 5px;
+    color: blue;
 }
 
-p {
+/* set the paragraph properties*/
+section p {
     padding-top: 10px;
 }
 
+/* set the footer properties*/
 footer {
     height: 500px;
     color: #4d4d72;

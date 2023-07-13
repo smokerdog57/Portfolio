@@ -8,7 +8,7 @@
 #### Link to Deployed Application:  https://smokerdog57.github.io/portfolio/
 #### Link to GitHub repository:     https://github.com/smokerdog57/Portfolio/
 
-## User Story (developer objective)
+## User Story
 
 Build a portfolio page which showcases my skills and talents to employers looking to fill a part-time or full-time position. This portfolio will highlight my best work and the thought processes behind it. My goal is to leverage my this portfolio with deployed web applications to secure interviews and ultimately a position with the company of my choice.
 
