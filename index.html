@@ -2,45 +2,32 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Container & Box Model Experiment</title>
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Flexbox Alignment</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
 </head>
 
 <body>
-    <!-- This is the header with nav links to the topics (sections) 
-    Q:  how do I make the header highlighting extend left to border of header 
-        like in the example picture ?   -->
-    <header class="header_top">
-        <h1><span class="headername">Tom Fusco</span></h1>
-        <img class="tom" src="./Assets/images/tom.jpg" alt="Tom's Picture">
+    <header>
+        <img class="tom" src="assets/images/tom.jpg" alt="Picture of Tom">
+        <h1>Tom<br>Fusco</h1>
         <nav>
-            <ul>
-                <li>
-                    <a href=#aboutme>About Me</a>
-                </li>
-                <li>
-                    <a href="#work">Work</a>
-                </li>
-                <li>
-                    <a href="#contactme">Contact Me</a>
-                </li>
-                <li>
-                    <a href="./resume.html">Resume</a>
-                </li>
-            </ul>
+            <a href="#aboutme">About Me</a>
+            <a href="#work">Work</a>
+            <a href="#contactme">Contact Me</a>
+            <a href="#resume">Resume</a>
         </nav>
     </header>
-
+    
     <main>
         <section id="aboutme" class="section_topic">
-            <h1>About <br>Me</h1>
+            <h2>About <br>Me</h2>
             <p>This is the about me paragraph bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</p>
         </section>
         <section id="work" class="section_topic">
-            <h1>Work</h1>
+            <h2>Work</h2>
             <section class="card_container">
                 <section class="card">
                     <a href="https://smokerdog57.github.io/refactoring/" target="__blank">
@@ -53,20 +40,20 @@
                     <img src="./Assets/images/tablet.jpg" alt="Tablet">
                 </section>
                 <section class="card">
-                    <header>Toilet Paper</header>
-                    <img src="./Assets/images/toilet-paper.jpg" alt="Toilet Paper">
+                    <header>Camera</header>
+                    <img src="./Assets/images/camera.jpg" alt="Picture of a camera">
                 </section>
                 <section class="card">
                     <header>Wooden Spoons</header>
-                    <img src="./Assets/images/wooden-spoons.jpg" alt="Wooden Spoons">
+                    <img src="./Assets/images/wooden-spoons.jpg" alt="Picture of Wooden Spoons">
                 </section>
             </section>
         </section>
         <section id="contactme" class="section_topic">
-            <h1>Contact Me</h1>
-            <p>This is the about me paragraph bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</p>
+            <h2>Contact Me</h2>
+            <p><b>Mobile:</b> (941) 221-1132&nbsp&nbsp&nbsp&nbsp<b>email:</b> smokerdog57@gmail.com&nbsp&nbsp&nbsp&nbsp<b>GitHub:</b> https://github.com/smokerdog57/Portfolio</p>
         </section>
-    </main>
+
 </body>
 
 </html>
